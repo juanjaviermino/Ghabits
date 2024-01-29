@@ -1,0 +1,17 @@
+.gradient-background {
+    background: linear-gradient(270deg, #030303, #5d5d5d);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 26s ease infinite;
+    -moz-animation: AnimationName 26s ease infinite;
+    animation: AnimationName 26s ease infinite;
+}
+
+.gradient-background-2 {
+    background: linear-gradient(360deg, #c7a865, #030303);
+    background-size: 400% 400%;
+
+    // -webkit-animation: AnimationName 30s ease infinite;
+    // -moz-animation: AnimationName 30s ease infinite;
+    // animation: AnimationName 30s ease infinite;
+}
