@@ -17,7 +17,7 @@ function NavbarStrays (props) {
 
     return(
         <nav className={`${isLogged ? 'navbar--logged' : 'navbar'}`}> 
-            <img style={{width: '30px'}} src='src\assets\logonew.ico'></img>
+            <img style={{width: '30px'}} src='src\assets\logonew.png'></img>
             <Link style={{minWidth: '80px'}} className="fs--logo" to="/Ghabits/">G Habits</Link>
             {isLogged 
                 ? 
